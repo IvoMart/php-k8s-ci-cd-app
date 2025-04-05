@@ -1,5 +1,6 @@
 <?php
 echo "<h1>Hola Mundo</h1>";
+echo "<h2>Hola Mundo desde PHP</h2>";
 exit;
 $mysqli = new mysqli(
     getenv('DB_HOST'),
