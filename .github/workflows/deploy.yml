@@ -36,7 +36,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Set KUBECONFIG
-        run: echo "KUBECONFIG=$HOME/.kube/config" >> $GITHUB_ENV
+        run: echo "KUBECONFIG=\\wsl.localhost/kali-linux/home/ivomart/.kube/config" >> $GITHUB_ENV
 
       - name: Apply Kubernetes manifests
         run: |
