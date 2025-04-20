@@ -2,6 +2,7 @@
 echo "<h1>Hola Mundo</h1>";
 echo "<h2>Hola Mundo - 2</h2>";
 echo "<h2>Hola Mundo desde PHP</h2>";
+echo "<h2>Hola Mundo desde PHP - 2</h2>";
 exit;
 $mysqli = new mysqli(
     getenv('DB_HOST'),
