@@ -40,7 +40,7 @@ jobs:
 
       - name: Apply Kubernetes manifests
         run: |
-          kubectl apply -f k8s/
+          kubectl apply -f ./k8s/
 
       - name: Force rollout restart
         run: kubectl rollout restart deployment/php-app
